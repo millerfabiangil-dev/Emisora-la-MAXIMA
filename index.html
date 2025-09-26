@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Máxima 89.11 FM</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+      <div class="logo-container">
+    <img src="logo-maxima.jpeg" alt="Logo La Máxima 89.9 FM" class="logo" />
+  </div>
+    <h1>🎧 La Máxima 89.9 FM</h1>
+    <nav>
+      <a href="#en-vivo">🔴 En Vivo</a>
+      <a href="#noticias">📰 Noticias</a>
+      <a href="#programacion">📅 Programación</a>
+    </nav>
+  </header>
+
+  <section id="en-vivo" class="seccion">
+    <h2>🔴 En Vivo Ahora</h2>
+    <p>¡Estás escuchando la mejor música del momento!</p>
+    <audio id="radioPlayer" controls>
+      <source src="96-bpm La Sensacion Del Bloque - De La Guetto Ft Yowell Randy Pro Acapella PRO-DFG-24.mp3" type="audio/mpeg">
+      Tu navegador no soporta el reproductor.
+    </audio>
+    <div class="controls">
+      <button onclick="playRadio()">▶️ Reproducir</button>
+      <button onclick="pauseRadio()">⏸️ Pausar</button>
+    </div>
+  </section>
+
+  <section id="noticias" class="seccion">
+    <h2>📰 Noticias del Día</h2>
+    <article>
+      <h3>🎤 Nuevo artista se une a La Máxima</h3>
+      <p>Hoy se une a nuestra programación el artista urbano "El Flow Latino". ¡No te lo pierdas a las 6:00 p.m.!</p>
+    </article>
+    <article>
+      <h3>🎶 Lanzamiento exclusivo</h3>
+      <p>Estrenamos en primicia el nuevo sencillo de Karol G. Escúchalo a las 10:00 a.m. solo aquí.</p>
+    </article>
+  </section>
+
+  <section id="programacion" class="seccion">
+    <h2>📅 Programación</h2>
+    <ul>
+      <li><strong>8:00 a.m. - 10:00 a.m.</strong>: Despierta con Ritmo</li>
+      <li><strong>10:00 a.m. - 1:00 p.m.</strong>: Éxitos del Momento</li>
+      <li><strong>1:00 p.m. - 4:00 p.m.</strong>: La Hora Urbana</li>
+      <li><strong>4:00 p.m. - 6:00 p.m.</strong>: Lo Más Sonado</li>
+      <li><strong>6:00 p.m. - 9:00 p.m.</strong>: Especial de la Noche</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>📻 La Máxima 89.9 FM - Todos los derechos reservados © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
